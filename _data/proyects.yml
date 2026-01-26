@@ -1,1 +1,14 @@
+title: Customer Retention Analysis
+  description: >
+    In this project, I worked as a data analyst for Zuber, a new ride-sharing company launching in Chicago. Using historical trip data from competitors, I explored passenger preferences, identified key demand patterns, and tested a hypothesis regarding the impact of weather conditions on ride frequency. The analysis aims to support data-driven decision-making related to market strategy and demand forecasting.
+  link: https://github.com/monicaarangobyte/zuberride
+  tools: SQL, Python, Pandas, Matplotlib
+  image: /assets/images/projects/customer-retention.png
 
+- title: Sentiment Analysis on Employee Feedback
+  description: >
+    Conducted sentiment analysis on internal surveys to identify areas of improvement,
+    applying NLP techniques and data visualization to deliver actionable insights.
+  link: https://github.com/tuusuario/sentiment-analysis
+  tools: Python, NLTK, Seaborn, Tableau
+  image: /assets/images/projects/sentiment-analysis.png
