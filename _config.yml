@@ -76,17 +76,6 @@ footer:
       url: "https://github.com/"
 
 defaults:
-  # _posts
-  - scope:
-      path: ""
-      type: posts
-    values:
-      layout: single
-      author_profile: true
-      read_time: true
-      comments: true
-      share: true
-      related: true
   # _pages
   - scope:
       path: "_pages"
@@ -94,9 +83,6 @@ defaults:
     values:
       layout: single
       author_profile: true
-header_pages:
-  - /about/
-  - /projects/
 
 category_archive:
   type: liquid
@@ -104,3 +90,7 @@ category_archive:
 tag_archive:
   type: liquid
   path: /tags/
+
+header_pages:
+  - /about/
+  - /projects/
