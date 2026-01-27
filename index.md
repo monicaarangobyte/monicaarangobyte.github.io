@@ -1,5 +1,5 @@
 ---
-layout: home
+layout: home_custom
 title: Mónica Arango | Data Analyst
 ---
 
@@ -9,19 +9,3 @@ Experienced Psychologist and Data Analyst combining deep understanding of human 
 
 Technical Skills: Excel | SQL | Python | Power BI | Tableau
 Soft Skills: Analytical Thinking | Behavioral Insights | Communication | Collaboration | Results-Focused | Organization | Initiative | Attention to Detail
-
----
-
-## Projects
-
-{% for project in site.data.projects %}
-### {{ project.title }}
-
-{{ project.description }}
-
-**Tools:** {{ project.tools }}
-
-[View project →]({{ project.link }})
-
----
-{% endfor %}
