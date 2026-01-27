@@ -1,32 +1,5 @@
 ---
-layout: page
+layout: projects
 title: Projects
 permalink: /projects/
-sidebar: false
 ---
-
-<div class="projects-grid">
-
-{% for project in site.data.projects %}
-
-<div class="project-card">
-
-{% if project.image %}
-<img src="{{ project.image }}" alt="{{ project.title }}" class="project-image">
-{% endif %}
-
-<h3>{{ project.title }}</h3>
-
-<p>{{ project.description }}</p>
-
-<p><strong>Tools:</strong> {{ project.tools }}</p>
-
-<a href="{{ project.link }}" class="project-button" target="_blank">
-View project →
-</a>
-
-</div>
-
-{% endfor %}
-
-</div>
