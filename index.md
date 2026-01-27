@@ -5,7 +5,10 @@ title: Mónica Arango | Data Analyst
 
 # Hi, I’m Mónica 👋
 
-I’m a Data Analyst with a background in Psychology. I specialize in combining data analysis with psychological insights to support strategic decisions and generate actionable insights.
+Experienced Psychologist and Data Analyst combining deep understanding of human behavior with strong analytical skills. I transform complex datasets into actionable insights that improve decision-making, optimize processes, and drive strategic results. Skilled in both behavioral research and modern data analytics tools.
+
+Technical Skills: Excel | SQL | Python | Power BI | Tableau
+Soft Skills: Analytical Thinking | Behavioral Insights | Communication | Collaboration | Results-Focused | Organization | Initiative | Attention to Detail
 
 ---
 
