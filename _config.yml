@@ -79,7 +79,5 @@ defaults:
       layout: single
       author_profile: true
 
-
-header:
-  - /about/
-  - /projects/
+custom_css:
+  - /assets/css/custom.css
