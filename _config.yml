@@ -94,6 +94,9 @@ defaults:
     values:
       layout: single
       author_profile: true
+header_pages:
+  - /about/
+  - /projects/
 
 category_archive:
   type: liquid
