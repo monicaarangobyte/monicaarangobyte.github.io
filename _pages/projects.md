@@ -1,9 +1,10 @@
 ---
-layout: single
+layout: page
 title: Projects
 permalink: /projects/
 sidebar: false
 ---
+
 
 {% for project in site.data.projects %}
 
