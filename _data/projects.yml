@@ -5,10 +5,17 @@
   tools: SQL, Python, Pandas, Matplotlib
   image: /assets/images/projects/customer-retention.png
 
-- title: Sentiment Analysis on Employee Feedback
+- title: Interactive Car Data Explorer
   description: >
-    Conducted sentiment analysis on internal surveys to identify areas of improvement,
-    applying NLP techniques and data visualization to deliver actionable insights.
-  link: https://github.com/tuusuario/sentiment-analysis
-  tools: Python, NLTK, Seaborn, Tableau
-  image: /assets/images/projects/sentiment-analysis.png
+    This project is an interactive web application developed with Streamlit, designed to facilitate the visual exploration of a car dataset (car_data).
+
+    The app allows users to load data from a CSV file and easily visualize key information.
+
+    **Main Features:**
+    - Preview the dataset to understand its structure.
+    - Generate an interactive histogram with a button to analyze the distribution of a variable.
+    - Generate an interactive scatter plot with a button to explore the relationship between two variables.
+    - Use interactive charts created with Plotly Express, fully integrated into the app.
+
+  link: https://github.com/monicaarangobyte/projectsprint7
+  tools: Python, Streamlit, Pandas, Plotly Express
