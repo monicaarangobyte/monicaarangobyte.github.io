@@ -12,6 +12,7 @@ I’m a Psychologist and Data Analyst with experience combining human behavior i
 
 {% for project in site.data.projects %}
 <div style="margin-bottom: 30px; padding: 15px; border: 1px solid #ddd; border-radius: 8px;">
+
 ### {{ project.title }}
 
 {% if project.image %}
@@ -26,3 +27,4 @@ I’m a Psychologist and Data Analyst with experience combining human behavior i
 
 </div>
 {% endfor %}
+
