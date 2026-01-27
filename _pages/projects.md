@@ -5,23 +5,28 @@ permalink: /projects/
 sidebar: false
 ---
 
+<div class="projects-grid">
 
 {% for project in site.data.projects %}
 
-<div style="margin-bottom: 40px; padding: 20px; border: 1px solid #e5e5e5; border-radius: 10px;">
-
-### {{ project.title }}
+<div class="project-card">
 
 {% if project.image %}
-![{{ project.title }}]({{ project.image }}){: style="max-width:100%; height:auto; margin:15px 0; border-radius:8px;" }
+<img src="{{ project.image }}" alt="{{ project.title }}" class="project-image">
 {% endif %}
 
-{{ project.description }}
+<h3>{{ project.title }}</h3>
 
-**Tools:** {{ project.tools }}
+<p>{{ project.description }}</p>
 
-[View project →]({{ project.link }})
+<p><strong>Tools:</strong> {{ project.tools }}</p>
+
+<a href="{{ project.link }}" class="project-button" target="_blank">
+View project →
+</a>
 
 </div>
 
 {% endfor %}
+
+</div>
