@@ -16,7 +16,12 @@ I’m a Psychologist and Data Analyst with experience combining human behavior i
 ### {{ project.title }}
 
 {% if project.image %}
-![{{ project.title }}]({{ project.image}}){: style="max-width:100%; height:auto; margin-bottom:10px;" }
+![{{ project.title }}]
+
+({{ project.image}})
+
+{: style="max-width:100%; height:auto; margin-bottom:10px;" }
+
 {% endif %}
 
 {{ project.description }}
