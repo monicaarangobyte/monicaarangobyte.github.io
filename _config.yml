@@ -79,5 +79,3 @@ defaults:
       layout: single
       author_profile: true
 
-custom_css:
-  - /assets/css/custom.css
