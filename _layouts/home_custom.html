@@ -1,0 +1,36 @@
+---
+# layout front matter
+---
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>{{ page.title }}</title>
+</head>
+<body>
+  <div class="container">
+
+    <!-- About Section -->
+    <section id="about">
+      {{ content }}
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects">
+      {% for project in site.data.projects %}
+        <div style="margin-bottom: 30px; padding: 15px; border: 1px solid #ddd; border-radius: 8px;">
+          <h3>{{ project.title }}</h3>
+          {% if project.image %}
+            <img src="{{ project.image }}" alt="{{ project.title }}" style="max-width:100%; height:auto; margin-bottom:10px;">
+          {% endif %}
+          <p>{{ project.description }}</p>
+          <p><strong>Tools:</strong> {{ project.tools }}</p>
+          <a href="{{ project.link }}">View project →</a>
+        </div>
+      {% endfor %}
+    </section>
+
+  </div>
+</body>
+</html>
